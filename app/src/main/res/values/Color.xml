@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="cyan_50">#e0f7fa</color>
-    <color name="cyan_100">#b2ebf2</color>
-    <color name="cyan_200">#80deea</color>
-    <color name="cyan_300">#4dd0e1</color>
-    <color name="cyan_400">#26c6da</color>
-    <color name="cyan_500">#00bcd4</color>
-    <color name="cyan_600">#00acc1</color>
-    <color name="cyan_700">#0097a7</color>
-    <color name="cyan_800">#00838f</color>
-    <color name="cyan_900">#006064</color>
-    <color name="cyan_A100">#84ffff</color>
-    <color name="cyan_A200">#18ffff</color>
-    <color name="cyan_A400">#00e5ff</color>
-    <color name="cyan_A700">#00b8d4</color>
-    
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="windowBackground">#B2DFDB</color>
+    <color name="colorAccent">#9E9E9E</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+
 </resources>
