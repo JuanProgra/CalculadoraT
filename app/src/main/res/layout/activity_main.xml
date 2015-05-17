@@ -67,6 +67,7 @@
                 android:background="@drawable/btn_g"
                 android:layout_weight="1"
                 android:textColor="#fff"
+                
                 android:id="@+id/btnRaiz"
                 android:text="√" />
 

@@ -236,8 +236,6 @@ public class MainActivity extends ActionBarActivity {
 
                 edtRes.setText(datos);
 
-                Toast toast = Toast.makeText(getApplicationContext(), datos, Toast.LENGTH_SHORT);
-                toast.show();
                 operacion = "";
 
             } else if (operacionT.equals("-"))
@@ -255,8 +253,6 @@ public class MainActivity extends ActionBarActivity {
 
                 edtRes.setText(datos);
 
-                Toast toast = Toast.makeText(getApplicationContext(), datos, Toast.LENGTH_SHORT);
-                toast.show();
                 operacion = "";
             }else if (operacionT.equals("/"))
             {
@@ -273,8 +269,6 @@ public class MainActivity extends ActionBarActivity {
 
                 edtRes.setText(datos);
 
-                Toast toast = Toast.makeText(getApplicationContext(), datos, Toast.LENGTH_SHORT);
-                toast.show();
                 operacion = "";
             } else  if (operacionT.equals("*"))
             {
@@ -291,8 +285,6 @@ public class MainActivity extends ActionBarActivity {
 
                 edtRes.setText(datos);
 
-                Toast toast = Toast.makeText(getApplicationContext(), datos, Toast.LENGTH_SHORT);
-                toast.show();
                 operacion = "";
             } else  if (operacionT.equals("√"))
             {
@@ -307,8 +299,6 @@ public class MainActivity extends ActionBarActivity {
 
                 edtRes.setText(datos);
 
-                Toast toast = Toast.makeText(getApplicationContext(), datos, Toast.LENGTH_SHORT);
-                toast.show();
                 operacion = "";
             }else  if (operacionT.equals("^"))
             {
@@ -325,8 +315,6 @@ public class MainActivity extends ActionBarActivity {
 
                 edtRes.setText(datos);
 
-                Toast toast = Toast.makeText(getApplicationContext(), datos, Toast.LENGTH_SHORT);
-                toast.show();
                 operacion = "";
             }
             else  if (operacionT.equals("!"))
@@ -342,14 +330,10 @@ public class MainActivity extends ActionBarActivity {
 
                 edtRes.setText(datos);
 
-                Toast toast = Toast.makeText(getApplicationContext(), datos, Toast.LENGTH_SHORT);
-                toast.show();
                 operacion = "";
             }
 
         }catch (Exception e){
-            Toast toast = Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT);
-            toast.show();
             System.out.println(e.toString());
         }
 
